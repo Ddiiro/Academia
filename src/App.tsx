@@ -1,11 +1,14 @@
+import Navbar from './Nav/Navbar';
+
 function App() {
 
   return (
-    <>
-      <div>
-        <p className="text-8xl font-bold underline">Academia</p>
-      </div>
-    </>
+    <div style={{ backgroundColor: "#302c85", color: "white", height: "100vh" }}>
+      <header style={{ display: "flex", margin: "auto", width : "95%", paddingTop: "20px" }}>
+        <Navbar />
+      </header>
+      
+    </div>
   )
 }
 
